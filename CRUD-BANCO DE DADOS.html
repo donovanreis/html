@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="header-title.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/records.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">                                                                                                      
+    <title> CRUD BANCO DE DADOS</title>                                                                                      
+
+
+</head>
+
+<body>
+    <header>
+        <h1 class="header-title"> cadastro de clientes</h1>
+    </header>
+    <main>
+        <button type="button" class="button deepskyblue">Cadastrar Clientes</button>
+        <table class="records">                                      
+            <header>
+                  <tr>
+                       <th>Nome</th>
+                       <th>E-mail</th>
+                       <th>Celular</h>
+                       <th>Cidade</th>
+                       <th>Ação</th>
+                  </tr>
+            </theader>
+            <tbody>
+                <tr>
+                      
+                    <th>joão Roberto</th>
+                    <th>joão@gmail.com</th>
+                    <th>Celular:(21)99800-5540</th>
+                    <th>Cidade:são joão da barra</th>
+                     <td>
+                         <button type="button"class="button green">ditar</button>
+                        <button type="button"class="button red">excluir</button>               
+                     </td>
+                </tr>
+                <th>Elaine Cardoso</th>
+                <th>Elaine@gmail.com</th>
+                <th>Celular:(21)99500-5030</th>
+                <th>Cidade:são joão de meriti</th>
+                 <td>
+                     <button type="button"class="button green">editar</button>
+                    <button type="button"class="button red">excluir</button>
+                 </td>
+                </tr>
+                <th>flavia Roberta</th>
+                <th>flavia@gmail.com</th>
+                <th>Celular:(21)99900-3030</th>
+                <th>Cidade:nilopolis do sul</th>
+                 <td>
+                     <button type="button"class="button green">editar</button>
+                    <button type="button"class="button red">excluir</button>
+                 </td>
+            </tbody>
+
+
+        </table>
+        <div  class="modal">
+            <div class="header-content">
+                <header>
+                    <h2>Novo Cliente</h2>
+                    <span class="header-close"></span>
+
+                </header>
+                <form>                                                                      
+                    <input type="text" class="modal-field" aria-placeholder="Nome do Ciente">
+                    <input type="email" class="modal-field" aria-placeholder="email do Ciente">
+                    <input type="celular" class="modal-field" aria-placeholder="Celulardo Ciente">
+                    <input type="cidade" class="modal-field" aria-placeholder="cidade do Ciente">
+                </form>
+                <footer class="header-footer">  
+                    <button class="button red">Salvar</button>                                                                             
+                    <button class="button blue">Cancelar</button>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        
+    </footer>
+
+</body>
+
+</html>
